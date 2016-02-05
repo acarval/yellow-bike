@@ -1,0 +1,78 @@
+/* Empty. Add your own CSS if you like */
+#map {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: relative;
+}
+
+.scroll {
+    height: 100%;
+}
+.infoWindowContent {
+    font-size:  14px !important;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+.angular-google-map-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.ion-android-bicycle:before { 
+    content: "\f369"; 
+    font-size: 150px;
+    color: #FFD304;  
+    -webkit-transform: rotate(40deg);
+    -moz-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+    transform: rotate(40deg);  
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loading-background {
+  background-image: url(../img/backgroung-loarding.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #002B6B;
+  text-align: center;
+}
+
+.blue-nau {
+    color: #003466;
+}
+
+.yellow-bike-title {
+    color: #FFD304;
+}
+
+.nau-logo {
+    left: 0px;
+    width: 150px;
+}
+.yellow-bike-logo {
+    margin-left: 0;
+    margin-right: auto;
+    width: 150px;
+    margin-bottom: 0px;
+}
+
+.list-onglet {
+    background-color: #002B6B;
+    color: #FFD304;
+    border-color: #FFD304;
+    border-width: 4px;
+}
+
+.toggle input:checked + .track {
+    background-color:#002B6B;
+    border-color:#FFD304;
+}
